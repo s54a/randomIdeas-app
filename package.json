@@ -18,5 +18,8 @@
   "homepage": "https://github.com/s9-g/randomIdeas-app#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
