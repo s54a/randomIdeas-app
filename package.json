@@ -1,0 +1,22 @@
+{
+  "name": "randomideas",
+  "version": "1.0.0",
+  "description": "Idea Sharing App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s9-g/randomIdeas-app.git"
+  },
+  "author": "Sooraj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s9-g/randomIdeas-app/issues"
+  },
+  "homepage": "https://github.com/s9-g/randomIdeas-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
