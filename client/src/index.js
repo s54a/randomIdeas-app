@@ -1,14 +1,14 @@
 import "@fortawesome/fontawesome-free/css/all.css";
 import Modal from "./components/Modal";
 import IdeaForm from "./components/IdeaForm";
-import Idealist from "./components/ideaList";
+import IdeaList from "./components/IdeaList";
 import "./css/style.css";
 
 const modal = new Modal();
 const ideaForm = new IdeaForm();
 ideaForm.render();
-const ideaList = new Idealist();
-ideaList.render();
+const ideaList = new IdeaList();
+// ideaList.render();
 
 const darkModeButton = document.querySelector("#darkModeButton");
 
