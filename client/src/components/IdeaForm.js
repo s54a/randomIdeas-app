@@ -33,7 +33,7 @@ class IdeaForm {
     };
 
     // Add New Idea to Databse
-    const newIdea = await IdeasApi.createIdeas(idea);
+    const newIdea = await IdeasApi.createIdea(idea);
 
     // Add New Idea to List (User Frontend)
     this._ideaList.addIdeaToList(newIdea.data.data);
